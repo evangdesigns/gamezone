@@ -19,7 +19,7 @@ export default function App() {
     return (
       <AppLoading
       startAsync={getFonts}
-      onFinish={()=> setFontsLoaded(true)}
+      onFinish={() => setFontsLoaded(true)}
     />
     )
   }
